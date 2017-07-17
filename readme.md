@@ -10,6 +10,6 @@ To make this code work
     
     celery -A app.tasks worker --loglevel=info --concurrency=10 -n worker0@%h
 
-    celery -A app.tasks worker --loglevel=info --concurrency=10 -n worker0@%h
+    celery -A app.tasks worker --loglevel=info --concurrency=10 -n worker1@%h
 
-    celery -A app.tasks worker --loglevel=info --concurrency=10 -n worker0@%h
+    celery -A app.tasks worker --loglevel=info --concurrency=10 -n worker2@%h
