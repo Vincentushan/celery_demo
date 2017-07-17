@@ -1,0 +1,5 @@
+celery==4.0.2
+amqp==2.1.4
+kombu==4.0.2
+redis==2.10.5
+requests==2.18.1
